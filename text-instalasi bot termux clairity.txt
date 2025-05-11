@@ -1,0 +1,17 @@
+Step by step ikuti cara paste/tempel ke termuxnya di video
+
+
+Command:
+1. termux-setup-storage
+2. pkg update && pkg upgrade -y
+3. pkg install wget -y
+4. wget -O 1-2-0-install.sh https://raw.githubusercontent.com/xziyyy/xziyyy/refs/heads/main/1-2-0-install.sh && bash 1-2-0-install.sh
+5. cd clairity
+6. yarn
+7. npm start
+
+COMMAND HAPUS SESSION
+1. rm -r media/database/session
+2. npm start
+
+Angka dan titik tidak dibawa !!
